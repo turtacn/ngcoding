@@ -1,7 +1,7 @@
 version: "3"
   
 services:
-  gpt-engineer:
+  gpt-sangforer:
     network_mode: host
     stdin_open: true
     tty: true
