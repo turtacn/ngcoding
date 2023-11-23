@@ -6,7 +6,7 @@ services:
     stdin_open: true
     tty: true
     environment:
-       - OPENAI_API_KEY=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
+       - OPENAI_API_KEY=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
        - HTTP_PROXY='http://localhost:19666'
        - HTTPS_PROXY='http://localhost:19666'
        - NO_PROXY='localhost'  
