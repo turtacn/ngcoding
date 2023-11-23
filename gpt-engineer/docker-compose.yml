@@ -1,0 +1,15 @@
+version: "3"
+  
+services:
+  gpt-engineer:
+    network_mode: host
+    stdin_open: true
+    tty: true
+    environment:
+       - OPENAI_API_KEY=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
+       - HTTP_PROXY='http://localhost:19666'
+       - HTTPS_PROXY='http://localhost:19666'
+       - NO_PROXY='localhost'  
+    image: jdcloudiaas/turta:gpt-engineer
+    volumes:
+      - ./projects:/project
